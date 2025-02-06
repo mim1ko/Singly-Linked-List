@@ -23,7 +23,7 @@ struct List {
 		head = new_node;
 	}
 
-	void display() {
+	void printing() {
 		Node* ptr = firstptr;
 		while (ptr) {
 			std::cout << ptr->value << ' ';
@@ -39,5 +39,5 @@ int main() {
 	a.insert(14);
 	a.insert(15);
 
-	a.display();
+	a.printing();
 }
